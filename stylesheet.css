@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background: #445721;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.navbar {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 2rem;
+}
+
+.navbar li:hover {
+  opacity: 0.5;
+}
+
+.login {
+  text-decoration: none;
+  background: rgba(225, 225, 225, 0.5);
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.hero {
+  min-height: 450px;
+  background: url("img/main.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lead {
+  color: white;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.main {
+  flex: 5;
+}
+
+.main h2 {
+  font-size: 30px;
+  border-bottom: 1px solid #000;
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+.sidebar {
+  flex: 2;
+}
+
+.sidebar img {
+  width: 100%;
+}
+
+.child {
+  margin-bottom: 100px;
+}
+
+.section {
+  display: flex;
+  margin-bottom: 50px;
+  background: whitesmoke;
+  width: 700px;
+}
+
+.image {
+  flex: 2;
+}
+
+.desc {
+  flex: 5;
+  padding: 0 2rem;
+}
+
+.section img {
+  max-width: 100%;
+}
+
+.footer {
+  min-height: 200px;
+  background: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.lead h1 {
+  font-size: 60px;
+  font-weight: normal;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.lead p {
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 10px;
+}
